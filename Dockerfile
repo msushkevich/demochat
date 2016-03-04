@@ -49,4 +49,5 @@ EXPOSE 8080 5222
 VOLUME ["/usr/src/app/config"]
 VOLUME ["/usr/src/app/uploads"]
 
+CMD ["mongod"]
 CMD ["npm", "start"]
